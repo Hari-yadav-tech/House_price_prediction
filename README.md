@@ -35,6 +35,7 @@ The Boston Housing dataset contains information about houses in Boston suburbs:
 - **TAX**: Full-value property-tax rate per $10,000
 - **PTRATIO**: Pupil-teacher ratio by town
 - **B**: 1000(Bk - 0.63)^2 where Bk is the proportion of Black residents by town
+  - **Note**: This feature has been identified as ethically problematic. The original dataset creators assumed racial self-segregation positively impacted house prices, which is a racist assumption. This is one of the primary reasons the Boston Housing dataset was removed from scikit-learn in version 1.2. This implementation is provided for educational purposes to understand historical datasets and their ethical issues.
 - **LSTAT**: Percentage of lower status of the population
 
 ## Installation
