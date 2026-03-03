@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+output/
+*.png
+*.jpg
+*.jpeg
+.ipynb_checkpoints/
+.DS_Store
